@@ -2,18 +2,18 @@ import React from 'react'
 
 import './styles.css'
 
-const Home = ({ planet, nextPlanet }) => (
+const Home = ({ planet }) => (
   <div className='container'>
     <div className='box'>
-      <h3>{planet.name}</h3>
+      <h3>{planet ? planet.name : 'Error'}</h3>
       <div className='content'>
-        <p>Population: {planet.population}</p>
-        <p>Climate: {planet.climate}</p>
-        <p>Terrain: {planet.terrain}</p>
+        <p>Population: {planet ? planet.population : 'nobody'}</p>
+        <p>Climate: {planet ? planet.climate : 'bad'}</p>
+        <p>Terrain: {planet ? planet.terrain : 'poor'}</p>
       </div>
-      <p>Featured in {planet.films} films</p>
+      <p>Featured in {planet ? planet.films : '0'} films</p>
     </div>
-    <button className='next' onClick={nextPlanet}>NEXT</button>
+    <button className='next' >NEXT</button>
   </div>
 )
 
