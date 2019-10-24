@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/front-challenge-b2w/static/css/main.5c22dc2a.chunk.css",
+    "main.js": "/front-challenge-b2w/static/js/main.466eb283.chunk.js",
+    "main.js.map": "/front-challenge-b2w/static/js/main.466eb283.chunk.js.map",
+    "runtime~main.js": "/front-challenge-b2w/static/js/runtime~main.ad1a859d.js",
+    "runtime~main.js.map": "/front-challenge-b2w/static/js/runtime~main.ad1a859d.js.map",
+    "static/js/2.71c26b6f.chunk.js": "/front-challenge-b2w/static/js/2.71c26b6f.chunk.js",
+    "static/js/2.71c26b6f.chunk.js.map": "/front-challenge-b2w/static/js/2.71c26b6f.chunk.js.map",
+    "index.html": "/front-challenge-b2w/index.html",
+    "precache-manifest.877ad306c41c0b49aa2871803e320516.js": "/front-challenge-b2w/precache-manifest.877ad306c41c0b49aa2871803e320516.js",
+    "service-worker.js": "/front-challenge-b2w/service-worker.js",
+    "static/css/main.5c22dc2a.chunk.css.map": "/front-challenge-b2w/static/css/main.5c22dc2a.chunk.css.map",
+    "static/media/styles.css": "/front-challenge-b2w/static/media/background-header.7dab2971.jpg",
+    "static/media/logo.png": "/front-challenge-b2w/static/media/logo.5d100186.png"
+  }
+}
