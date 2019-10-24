@@ -29,5 +29,8 @@
   ],
   "standard": {
     "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
