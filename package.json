@@ -1,4 +1,5 @@
 {
+  "homepage": "http://GeovaniJose.github.io/front-challenge-b2w",
   "name": "front-challenge-b2w",
   "author": "Geovani José (geovani-lol@hotmail.com)",
   "description": "Front-end web developed for the B2W challenge.",
@@ -13,6 +14,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
